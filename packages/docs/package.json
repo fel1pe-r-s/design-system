@@ -21,15 +21,17 @@
     "@storybook/react-vite": "^7.6.12",
     "@storybook/test": "^7.6.12",
     "@vitejs/plugin-react": "^4.2.1",
-    "prop-types": "^15.8.1",   
+    "prop-types": "^15.8.1",
     "storybook": "^7.6.12",
     "vite": "^5.0.12"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config": "*"
+    "@ignite-ui/ts-config": "*",
+    "polished": "^4.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
