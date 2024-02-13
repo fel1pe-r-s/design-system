@@ -29,5 +29,19 @@ const config = {
     autodocs: "tag",
     defaultName: "Documentation",
   },
+
+  core: {
+    builder: "@storybook/builder-vite",
+  },
+  features: {
+    storyStoreV7: true,
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/design-system/";
+    }
+
+    return config;
+  },
 };
 export default config;
