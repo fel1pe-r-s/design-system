@@ -18,7 +18,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm build
+      - run: npm run build
 
       - name: Deploy Storybook to GitHub Pages
         working-directory: ./packages/docs
