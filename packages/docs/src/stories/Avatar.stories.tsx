@@ -11,6 +11,13 @@ export default {
     src: "https://github.com/fel1pe-r-s.png",
     alt: "Felipe Rodrigues",
   },
+  argTypes: {
+    src: {
+      control: {
+        type: "text",
+      },
+    },
+  },
 } as Meta<AvatarProps>;
 
 type Story = StoryObj<AvatarProps>;
